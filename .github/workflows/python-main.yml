@@ -22,6 +22,8 @@ jobs:
       EMAIL: ${{ secrets.EMAIL }}
       PASSWORD: ${{ secrets.PASSWORD }}
       BASE_URL: ${{ secrets.BASE_URL }}
+      SCKEY: ${{ secrets.SCKEY }}
+      TG_USER_ID: ${{ secrets.TG_USER_ID }}
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.11
