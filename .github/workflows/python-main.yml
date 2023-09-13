@@ -11,6 +11,9 @@ on:
   schedule:
   - cron: "0 1 * * *"
 
+env:
+  RUN_ENV: 'settings'
+
 permissions:
   contents: read
 
